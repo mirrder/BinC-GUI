@@ -7,7 +7,10 @@
 
 Для запуска программы вам понадобится установленный **Python 3.8+**.
 
-1. Склонируйте репозиторий или скачайте его как ZIP:
+ Скопируйте репозиторий или скачайте его как ZIP:
    ```bash
    git clone https://github.com/mirrder/BinC-GUI.git
    cd BinC-GUI
+   ```
+   
+   # The program only accepts TXT files/программа принимает только тхт файлы
