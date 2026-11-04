@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>BinC Encryptor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1>🔐 BinC Encryptor</h1>
+        
+        <div class="file-buttons">
+            <button class="secondary-btn" onclick="openFile()">📂 Открыть .txt</button>
+            <button class="secondary-btn" onclick="saveFile()">💾 Сохранить .txt</button>
+        </div>
+
+        <label>Входной текст / Шифр:</label>
+        <textarea id="input-text" placeholder="Введи текст сюда..."></textarea>
+
+        <div class="action-buttons">
+            <button class="primary-btn" onclick="encryptText()">Зашифровать</button>
+            <button class="danger-btn" onclick="decryptText()">Расшифровать</button>
+        </div>
+
+        <label>Результат:</label>
+        <textarea id="output-text" placeholder="Здесь будет результат..."></textarea>
+
+        <button class="secondary-btn" style="margin-top: 10px; width: 100%;" onclick="copyResult()">Скопировать результат</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
